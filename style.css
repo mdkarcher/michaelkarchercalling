@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    
+}
+
+body {
+    background-image: url(Folklife2015.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Times New Roman";
+}
+
+a {
+    
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+#sub_body {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 800px;
+    margin: 10px auto 0 auto;
+    /*background: #f8f8f8;*/
+}
+
+#placard {
+    height: 50px;
+    /*margin-bottom: 10px;*/
+    padding: 10px 10px;
+    /*background: #f0f0f0;*/
+}
+
+#placard a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#placard a:hover {
+    color: #0000bb;
+}
+
+#menu {
+    margin-bottom: 0;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    /*background: #f2f2f2;*/
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    height: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#menu ul li {
+    float: left;
+}
+
+#menu ul #up {
+    float: right;
+}
+
+#menu ul li a {
+    height: 20px;
+    display: block;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    background-color: #eeeeee;
+}
+
+#content {
+    padding: 5px 10px 5px 10px;
+    overflow: auto;
+    /*background: #f0f0f0*/
+}
+
+#content_title {
+    margin: 10px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#content p {
+    margin: 10px 0 5px;
+}
+
+#footer {
+    clear:both;
+    overflow: auto;
+    border-top-style: solid;
+    border-top-width: 1px;
+    padding: 5px 10px;
+}
+
+#footer p {
+    font-size: 10px;
+}
+
+#copyright {
+    float: right;
+}
+
+#content_home {
+    float: left;
+    width: 380px;
+}
+
+#content_photo {
+    float: right;
+    width: 375px;
+    height: 400px;
+}
+
+#photo {
+    max-height:100%;
+}
+
+#content_calendar {
+    float: left;
+    width: 250px;
+}
+
+#calendar {
+    float: right;
+    width: 500px;
+    height: 400px;
+}
+
+#placard_logo {
+    float: right;
+}
+
+ol {
+    padding-left: 2em
+}
+
+.program {
+    margin-top: 0.75em;
+    margin-bottom: 0.5em;
+    padding-top: 0.25em;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: gray;
+}
+
+.program ol li {
+    margin: 0.2em 0;
+}
+
+.workshop {
+    margin-top: 0.75em;
+    margin-bottom: 0.5em;
+    padding-top: 0.25em;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: gray;
+}
+#placard h1 {
+    font-size: 46px;
+    float: left;
+}
+
+#placard img {
+    float: right;
+}
+
+.experience_category {
+    margin-top: 0.75em;
+    margin-bottom: 0.5em;
+    padding-top: 0.25em;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: gray;
+}
+
+.experience_category ul li {
+    margin: 0.35em 0.2em;
+    list-style-type: disc;
+    list-style-position: inside;
+}
